@@ -1,9 +1,15 @@
 package com.stdio.swipetoreply_example;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
+import android.widget.Toast;
+
+import com.stdio.swipetoreply.ISwipeControllerActions;
+import com.stdio.swipetoreply.SwipeController;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +28,14 @@ public class MainActivity extends AppCompatActivity {
         rv = findViewById(R.id.rv);
         LinearLayoutManager llm = new LinearLayoutManager(this);
         rv.setLayoutManager(llm);
+        SwipeController controller = new SwipeController(this, new ISwipeControllerActions() {
+            @Override
+            public void onSwipePerformed(int position) {
+                Toast.makeText(MainActivity.this, String.valueOf(position), Toast.LENGTH_SHORT).show();
+            }
+        });
+        ItemTouchHelper itemTouchHelper = new ItemTouchHelper(controller);
+        itemTouchHelper.attachToRecyclerView(rv);
         initializeData();
         initializeAdapter();
     }

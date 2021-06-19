@@ -1,2 +1,3 @@
 rootProject.name = "SwipeToReply"
 include ':app'
+include ':swipetoreply'
