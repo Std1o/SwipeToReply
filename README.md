@@ -1,5 +1,5 @@
 # Swipe To Reply
-This is a small library that can be used to implement a  "swipe-to-reply" functionality in your Android apps
+This is a small library that can be used to implement a  "swipe-to-reply" functionality in your Android apps.
 Made on the basis of https://github.com/izjumovfs/SwipeToReply, in contrast to which, the swipe is to the left, which is much more convenient and familiar.
 
 Here's what it looks like:
