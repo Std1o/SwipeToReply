@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SwipeToReply</string>
+
+    <string name="news_header_top_stories">Top Stories</string>
+    <string name="news_body1">SYDNEY - Australian police arrested two teenagers and seized knives in Sydney on Wednesday as the country marked the 14th anniversary of extremist bombings in Indonesia that killed 202, including 88 Australians, police said.</string>
+    <string name="news_header_world">World</string>
+    <string name="news_body4">The current policy of “saber rattling” should not continue, Erwin Sellering, the prime minister of the German state of Mecklenburg-Western Pomerania, told Germany\'s weekly Welt am Sonntag newspaper, as he called for lifting anti-Russian sanctions.</string>
+    <string name="news_header_australia">Australia</string>
+    <string name="news_body6">The survival of Indigenous people in the Northern Territory depended on the outcome of the Royal Commission into Child Protection and Detention, a witness told the commission hearing in Darwin.</string>
+
 </resources>
