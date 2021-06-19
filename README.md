@@ -37,6 +37,6 @@ SwipeController controller = new SwipeController(context, new ISwipeControllerAc
                       // Here you can handle the swipe-to-reply event
                 }
             });
-            ItemTouchHelper itemTouchHelper = new ItemTouchHelper(controller);
-            itemTouchHelper.attachToRecyclerView(recyclerView);
+ItemTouchHelper itemTouchHelper = new ItemTouchHelper(controller);
+itemTouchHelper.attachToRecyclerView(recyclerView);
 ```
