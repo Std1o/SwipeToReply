@@ -1,4 +1,4 @@
-package com.stdio.swipetoreply;
+package com.stdio.swipetoreply_example;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;

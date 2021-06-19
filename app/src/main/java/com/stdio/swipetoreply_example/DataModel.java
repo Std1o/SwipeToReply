@@ -1,4 +1,4 @@
-package com.stdio.swipetoreply;
+package com.stdio.swipetoreply_example;
 
 public class DataModel {
     String title;
